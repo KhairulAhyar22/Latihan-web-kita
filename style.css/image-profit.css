@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.inner-profit {
+    max-width: 1200px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+.title-profit {
+    text-align: center;
+    margin: 50px auto 40px auto;
+}
+.list-image-profit {
+    overflow: auto;
+}
+.image {
+    max-width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px auto;
+    float: right;
+    margin: 5px 30px;
+}
+.image > img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+.item-profit {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 15px 25px;
+    background-color: aliceblue;
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.185);
+    line-height: 1.5em;
+}
+.t-item-profit, 
+.desc-item-profit, .a-item-profit {
+    margin: 10px 0;
+}
+.t-item-profit {
+    color: rgb(0, 61, 78);
+}
+.a-item-profit {
+    text-decoration: none;
+    color: rgb(5, 3, 155);
+}

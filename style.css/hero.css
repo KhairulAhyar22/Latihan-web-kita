@@ -1,0 +1,53 @@
+.box-hero {    
+    background-color: rgb(0, 0, 2);
+}
+.hero {
+    height: 600px;
+    background-image: url(../asset/images/hero.png);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    opacity: 70%;
+}
+.inner-hero {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 0 0 20px hsl(0, 0%, 5%);
+    line-height: 2em;
+}
+.hero-welcome {
+    font-family: 'Oleo Script Swash Caps';
+    font-size: 40px;
+    
+}
+.hero-heading {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.color {
+    color:rgb(251, 255, 24);
+}
+.hero-desc {
+    font-weight: 700;
+}
+.inner-hero > a {
+    color: black;
+    background-color: rgb(251, 255, 24);
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 8px 25px;
+    text-shadow: none;
+}
+.inner-hero > a:hover {
+    background-color: rgb(157, 252, 5);
+    box-shadow: 0 0 5px 8px rgba(0, 0, 0, 0.274);
+}
+main {
+    min-height: 900px;
+}

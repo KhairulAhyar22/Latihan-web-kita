@@ -1,0 +1,16 @@
+@import 'header.css';
+@import 'hero.css';
+@import 'image-profit.css';
+@import 'backround-text.css';
+@import './our-story.css';
+@import './footer.css';
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+}

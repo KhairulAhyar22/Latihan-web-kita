@@ -1,0 +1,17 @@
+.bacground-text {
+    background-color: rgb(221, 219, 201);
+    text-align: center;
+    padding: 40px 0;
+    color: rgb(0, 0, 0);
+}
+.inner-bt {
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.inner-bt > p {
+    text-indent: 35px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 1.5em;
+}
